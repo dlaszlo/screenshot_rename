@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  screenshot-rename:
+    build:
+      context: .
+    image: screenshot-rename:latest
+    volumes:
+      - /home/dlaszlo/Képek/Képernyőképek:/screenshots
+
