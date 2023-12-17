@@ -4,6 +4,7 @@ services:
   screenshot-rename:
     build:
       context: .
+    restart: always
     image: screenshot-rename:latest
     volumes:
       - /home/dlaszlo/Képek/Képernyőképek:/screenshots
